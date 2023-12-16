@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Зелёный Дом</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20231216162618">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__container">
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a data-goto="#header" href="" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a data-goto="#catalog" href="" class="menu__link">Каталог</a></li>
+                        <li class="menu__item"><a data-goto="#reviews" href="" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a data-goto="#delivery" href="" class="menu__link">Доставка</a></li>
+                        <li class="menu__item"><a data-goto="#rules" href="" class="menu__link">Возврат</a></li>
+                        <li class="menu__item"><a data-goto="#certificates" href="" class="menu__link">Сертификаты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a data-goto="#cart" href="" class="header__cart _icon-cart">
+                    <div class="header__cart-count">2</div>
+                </a>
+            </div>
+        </header>
+        <main class="page">
+            <section class="main-block">
+                <div class="main-block__container">
+                    <div class="main-block__content">
+                        <h1 class="main-block__title">
+                            <b>Зелёный Дом</b>
+                            экология
+                            <b><span>в каждом продукте</span></b>
+                        </h1>
+                        <p>
+                            Зеленый дом предоставляет экологичные товары от лучших производителей. Мы очень заботимся о
+                            качестве и экологичности нашего товара. Ассортимент предлагаемых продуктов соответствует
+                            основным требованиям современного дома:
+                        </p>
+                        <ul>
+                            <li>ЭКОЛОГИЧНОСТЬ,</li>
+                            <li>БЕЗОПАСНОСТЬ,</li>
+                            <li>ФУНКЦИОНАЛЬНОСТЬ,</li>
+                            <li>ВЫСОКИЕ ПОТРЕБИТЕЛЬСКИЕ СТАНДАРТЫ.</li>
+                        </ul>
+                        <a data-goto="#cart" href="" class="main-block__btn btn">К покупкам</a>
+                    </div>
+                    <div class="main-block__img">
+                        <picture>
+                            <source srcset="img/main-block/main.webp" type="image/webp"><img
+                                src="img/main-block/main.png" alt="img">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+            <section id="catalog" class="catalog">
+                <div class="catalog__container">
+                    <h2 class="catalog__title section-title">Каталог</h2>
+                    <div class="search catalog__search _icon-search">
+                        <input type="text" class="search__input" placeholder="Search">
+                        <button class="search__btn">Search</button>
+                    </div>
+                    <div class="catalog__category">
+                        <h3 class="catalog__category-title">Чистая посуда</h3>
+                        <button class="catalog__arrow catalog__arrow-left _icon-arrow-left"></button>
+                        <button class="catalog__arrow catalog__arrow-right _icon-arrow-right"></button>
+                        <div class="catalog__items">
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-1.webp" type="image/webp"><img
+                                        src="img/catalog/item-1.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Многоразовые палочки из бамбука</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">500 р</div>
+                                    <div class="item-catalog__price-old">700 р</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-2.webp" type="image/webp"><img
+                                        src="img/catalog/item-2.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Деревянная вилка</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">350р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-3.webp" type="image/webp"><img
+                                        src="img/catalog/item-3.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Баночка для хранения металлическая</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">650р.</div>
+                                    <div class="item-catalog__price-old">699р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__category">
+                        <h3 class="catalog__category-title">Гипоаллергенные средства</h3>
+                        <button class="catalog__arrow catalog__arrow-left _icon-arrow-left"></button>
+                        <button class="catalog__arrow catalog__arrow-right _icon-arrow-right"></button>
+                        <div class="catalog__items">
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-4.webp" type="image/webp"><img
+                                        src="img/catalog/item-4.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Подставка под мыло</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">700 р</div>
+                                    <div class="item-catalog__price-old">1000 р</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-5.webp" type="image/webp"><img
+                                        src="img/catalog/item-5.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Экопенка для мытья посуды</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">295р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-6.webp" type="image/webp"><img
+                                        src="img/catalog/item-6.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Эко свечи</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">450р.</div>
+                                    <div class="item-catalog__price-old">499р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__category">
+                        <h3 class="catalog__category-title">Уход за телом</h3>
+                        <button class="catalog__arrow catalog__arrow-left _icon-arrow-left"></button>
+                        <button class="catalog__arrow catalog__arrow-right _icon-arrow-right"></button>
+                        <div class="catalog__items">
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-7.webp" type="image/webp"><img
+                                        src="img/catalog/item-7.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Гель с фруктовыми кислотами</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">275 р</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-8.webp" type="image/webp"><img
+                                        src="img/catalog/item-8.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Восстанавливающий крем</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">2300р.</div>
+                                    <div class="item-catalog__price-old">2500р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-9.webp" type="image/webp"><img
+                                        src="img/catalog/item-9.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Жидкое мыло для рук</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">450р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__category">
+                        <h3 class="catalog__category-title">Уход за полостью рта</h3>
+                        <button class="catalog__arrow catalog__arrow-left _icon-arrow-left"></button>
+                        <button class="catalog__arrow catalog__arrow-right _icon-arrow-right"></button>
+                        <div class="catalog__items">
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-10.webp" type="image/webp"><img
+                                        src="img/catalog/item-10.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Зубная щетка из Бамбука</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">230р</div>
+                                    <div class="item-catalog__price-old">300р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-11.webp" type="image/webp"><img
+                                        src="img/catalog/item-11.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Скребок для языка</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">690р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-12.webp" type="image/webp"><img
+                                        src="img/catalog/item-12.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Зубная паста с фтором</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">270р.</div>
+                                    <div class="item-catalog__price-old">400р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__category">
+                        <h3 class="catalog__category-title">Для детей</h3>
+                        <button class="catalog__arrow catalog__arrow-left _icon-arrow-left"></button>
+                        <button class="catalog__arrow catalog__arrow-right _icon-arrow-right"></button>
+                        <div class="catalog__items">
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-13.webp" type="image/webp"><img
+                                        src="img/catalog/item-13.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Бальзам для мытья посуды и детских принадлежностей
+                                </div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">350р</div>
+                                    <div class="item-catalog__price-old">560р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-14.webp" type="image/webp"><img
+                                        src="img/catalog/item-14.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Стиральный порошок для детской одежды</div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">800р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                            <div class="catalog__item item-catalog">
+                                <picture>
+                                    <source srcset="img/catalog/item-15.webp" type="image/webp"><img
+                                        src="img/catalog/item-15.jpg" alt="img">
+                                </picture>
+                                <div class="item-catalog__title">Гиппоаллергенное средство для стирки детского белья
+                                </div>
+                                <div class="item-catalog__price">
+                                    <div class="item-catalog__price-new">850р.</div>
+                                    <div class="item-catalog__price-old">1099р.</div>
+                                </div>
+                                <button class="item-catalog__btn btn">КУПИТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="catalog__btn btn btn--black">ЕЩЕ</button>
+                </div>
+            </section>
+            <section class="advantages">
+                <div class="advantages__container">
+                    <h2 class="advantages__title section-title">Почему Зелёный Дом?</h2>
+                    <div class="advantages__items">
+                        <div class="advantages__item item-advantages">
+                            <img src="img/advantages/item-1.svg" alt="icon">
+                            <div class="item-advantages__title">
+                                <span>Наши поставщики:</span>
+                                <span>POLEZIUM</span>
+                                <span>ВАСТЭКО</span>
+                                <span>Здороведа</span>
+                                <span>еще</span>
+                            </div>
+                        </div>
+                        <div class="advantages__item item-advantages">
+                            <img src="img/advantages/item-2.svg" alt="icon">
+                            <div class="item-advantages__title">Все товары сертифицированы</div>
+                            <a href="#" class="item-advantages__link">Скачать сертификаты</a>
+                        </div>
+                        <div class="advantages__item item-advantages">
+                            <img src="img/advantages/item-3.svg" alt="icon">
+                            <div class="item-advantages__title">Только гипоаллергенная продукция</div>
+                        </div>
+                    </div>
+            </section>
+            <section id="reviews" class="reviews">
+                <div class="reviews__container">
+                    <h2 class="reviews__title section-title">Отзывы</h2>
+                    <div class="reviews__items">
+                        <div class="reviews__item item-reviews">
+                            <picture>
+                                <source srcset="img/reviews/item-1.webp" type="image/webp"><img
+                                    src="img/reviews/item-1.png" alt="img">
+                            </picture>
+                            <div class="item-reviews__name">Саша</div>
+                            <div class="item-reviews__text">
+                                «Мне очень нравится сумка из органического хлопка!
+                                Не только стильно, но и
+                                экологически чисто. Отмечу
+                                положительное воздействие на окружающую среду.
+                                Очень рекомендую этот экологичный аксессуар!»
+                            </div>
+                            <div class="item-reviews__bottom">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">5</div>
+                                </div>
+                                <div class="item-reviews__icon _icon-smile"></div>
+                            </div>
+                        </div>
+                        <div class="reviews__item item-reviews">
+                            <picture>
+                                <source srcset="img/reviews/item-2.webp" type="image/webp"><img
+                                    src="img/reviews/item-2.png" alt="img">
+                            </picture>
+                            <div class="item-reviews__name">Марк</div>
+                            <div class="item-reviews__text">
+                                «Бамбуковые зубные щетки купленные у вас отвал всего! Качество превосходное,
+                                и мне нравится сам материал. жизнь
+                                стала намного зеленее, и я очень счастлив.
+                                Спасибо за экологически чистые продукты!»
+                            </div>
+                            <div class="item-reviews__bottom">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">5</div>
+                                </div>
+                                <div class="item-reviews__icon _icon-smile"></div>
+                            </div>
+                        </div>
+                        <div class="reviews__item item-reviews">
+                            <picture>
+                                <source srcset="img/reviews/item-3.webp" type="image/webp"><img
+                                    src="img/reviews/item-3.png" alt="img">
+                            </picture>
+                            <div class="item-reviews__name">Лиза</div>
+                            <div class="item-reviews__text">
+                                «Недавно приобрела рюкзак,
+                                и, скажу, что это фантастическая вещь.
+                                Прочность конопляного материала впечатляет, и мне приятно знать, что я не прогадала.
+                                Этот рюкзак идеально подходит для всего. Большой плюс за заботу об экологии!»
+                            </div>
+                            <div class="item-reviews__bottom">
+                                <div class="rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">5</div>
+                                </div>
+                                <div class="item-reviews__icon _icon-smile"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__btns">
+                        <button class="reviews__arrow reviews__arrow-left _icon-arrow-left"></button>
+                        <div class="reviews__dots">
+                            <div class="reviews__dots-item _active"></div>
+                            <div class="reviews__dots-item"></div>
+                            <div class="reviews__dots-item"></div>
+                        </div>
+                        <button class="reviews__arrow reviews__arrow-right _icon-arrow-right"></button>
+                    </div>
+                </div>
+            </section>
+            <section id="delivery" class="delivery">
+                <div class="delivery__container">
+                    <h2 class="delivery__title section-title section-title--white">Доставка</h2>
+                    <div class="delivery__name">Зеленый Дом</div>
+                    <div class="delivery__items">
+                        <div class="delivery__item item-delivery">
+                            <img src="img/delivery/item-1.svg" alt="icon">
+                            <div class="item-delivery__title">Доставим наши товары в любой город</div>
+                            <div class="item-delivery__text">
+                                Доставка осуществляется из города Казань. Среднее время доставки до 2-х недель.
+                                Доставим наши товары в любой город РФ
+                            </div>
+                        </div>
+                        <div class="delivery__item item-delivery">
+                            <img src="img/delivery/item-2.svg" alt="icon">
+                            <div class="item-delivery__title">Доставка курьером или в пункт выдачи</div>
+                            <div class="item-delivery__text">
+                                <ul>
+                                    <li>от 190 р. – Доставка в пункты выдачи СДЭК</li>
+                                    <li>от 190 р. – СДЭК доставка в постамат</li>
+                                    <li>от 330 р. – СДЭК доставка в до двери</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="delivery__item item-delivery">
+                            <img src="img/delivery/item-3.svg" alt="icon">
+                            <div class="item-delivery__title">Безопасная оплата на сайте</div>
+                            <div class="item-delivery__text">
+                                <ul>
+                                    <li>Банковские карты</li>
+                                    <li>Яндекс.Деньги</li>
+                                    <li>Qiwi Wallet</li>
+                                    <li>Евросеть, Связной</li>
+                                </ul>
+                                Минимальная сумма для заказа: 500 рублей.
+                                Кассовый чек приходит Вам на почту сразу после оплаты товара.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="rules" class="rules">
+                <div class="rules__container">
+                    <div class="rules__content">
+                        <div class="rules__title">ПРАВИЛА ВОЗВРАТА ТОВАРА НАДЛЕЖАЩЕГО КАЧЕСТВА, ПРОДАННОГО ДИСТАНЦИОННЫМ
+                            СПОСОБОМ (ЗАКОН РФ от 07.02.1992 N 2300-I СТ. 26.1)</div>
+                        <p>
+                            <span>Сроки возврата товара:</span>
+                            Потребитель вправе отказаться от товара в любое время до его передачи, а после передачи
+                            товара - в течение 14 (четырнадцати) дней.
+                        </p>
+                        <p>
+                            <span>Порядок возврата товара:</span>
+                            Возврат товара надлежащего качества возможен в случае, если товар не был в употреблении,
+                            сохранены его товарный вид, фабричная упаковка, ярлыки, потребительские свойства, а также
+                            документ, подтверждающий факт и условия покупки указанного товара. Отсутствие у потребителя
+                            документа, подтверждающего факт и условия покупки товара, не лишает его возможности
+                            ссылаться на другие доказательства приобретения товара у данного продавца.
+                        </p>
+                        <p>
+                            <span>Возврат средств: </span>
+                            При отказе потребителя от товара продавец должен вернуть ему денежную сумму, уплаченную
+                            потребителем по договору, за исключением расходов продавца на доставку товара, не позднее
+                            чем через десять дней со дня предъявления потребителем соответствующего требования и
+                            возврата товара. Возврат средств за товар будет произведен Вам в течение 5 рабочих дней с
+                            момента получения нами товара.Возврат средств производится только при условии, что товар не
+                            был в употреблении, сохранен его товарный вид и упаковка.
+                        </p>
+                        <p>
+                            <span>Оформление возврата:</span>
+                            Чтобы оформить возврат, Вам необходимо вернуть товар, от которого Вы хотите отказаться.
+                            Отправить товар можно по почте или привезти его в рабочие дни с 9 до 18 часов по адресу:
+                            Куда: 117525, г. Казань, Чертановская улица, 23А Кому: Левиндорф М. А. При отправке возврата
+                            по почте, обязательно отправьте нам трэк-номер посылки на info@greenhouse.ru сразу после
+                            отправки, чтобы мы могли отслеживать отправление (извещение порой несут неделями).
+
+                        </p>
+                        <p><span>Контакты для связи:</span></p>
+                        <a href="mailto:info@greenhouse.ru ">info@greenhouse.ru </a>
+                        <a href="tel:79021235656">+79021235656</a>
+                    </div>
+                </div>
+            </section>
+            <section id="certificates" class="certificates">
+                <div class="certificates__container">
+                    <h2 class="certificates__title">Подарочные сертификаты</h2>
+                    <div class="certificates__items">
+                        <div class="certificates__item item-certificates">
+                            <div class="item-certificates__title">1000 рублей</div>
+                            <button class="item-certificates__btn btn">КУПИТЬ</button>
+                        </div>
+                        <div class="certificates__item item-certificates">
+                            <div class="item-certificates__title">2000 рублей</div>
+                            <button class="item-certificates__btn btn">КУПИТЬ</button>
+                        </div>
+                        <div class="certificates__item item-certificates">
+                            <div class="item-certificates__title">1500 рублей</div>
+                            <button class="item-certificates__btn btn">КУПИТЬ</button>
+                        </div>
+                        <div class="certificates__item item-certificates">
+                            <div class="item-certificates__title">5000 рублей</div>
+                            <button class="item-certificates__btn btn">КУПИТЬ</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="cart" class="cart">
+                <div class="cart__container">
+                    <h2 class="cart__title section-title">Корзина</h2>
+                    <form class="cart__main">
+                        <div class="cart__top">
+                            <div class="cart__top-title">Товар</div>
+                            <div class="cart__top-title">Цена</div>
+                            <div class="cart__top-title">Количество</div>
+                        </div>
+                        <div class="cart__product product-cart">
+                            <div class="product-cart__wrapp">
+                                <picture>
+                                    <source srcset="img/cart/item-1.webp" type="image/webp"><img
+                                        src="img/cart/item-1.png" alt="product">
+                                </picture>
+                                <div class="product-cart__title">Стиральный порошок для детской одежды</div>
+                            </div>
+                            <div class="product-cart__price">800 р.</div>
+                            <div class="product-cart__del">
+                                <button class="_icon-delete"></button>
+                            </div>
+                        </div>
+                        <div class="cart__form">
+                            <div class="checkbox">
+                                <input id="c_1" data-error="Ошибка" checked class="checkbox__input" type="checkbox"
+                                    value="1" name="form[]">
+                                <label for="c_1" class="checkbox__label"><span class="checkbox__text">Мне нужна
+                                        доставка</span></label>
+                            </div>
+                            <div class="form__input-wrapp">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                    placeholder="Ваше Имя и Фамилия" data-required class="input">
+                            </div>
+                            <div class="form__input-wrapp">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Некорректный email!"
+                                    placeholder="Ваша электронная почта" data-required="email" class="input">
+                            </div>
+                            <div class="form__input-wrapp">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                    placeholder="Город доставки" data-required class="input">
+                            </div>
+                            <div class="form__input-wrapp">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                    placeholder="Улица, дом, квартира" data-required class="input">
+                            </div>
+                        </div>
+                        <div class="cart__bottom">
+                            <p>Стоимость товара: 1600 рублей</p>
+                            <p>Стоимость доставки: рассчитывается...</p>
+                            <div class="cart__total">
+                                <p>Итого к оплате: рассчитывается</p>
+                                <button class="cart__btn btn">Оплатить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.min.js?_v=20231216162618"></script>
+</body>
+
+</html>
